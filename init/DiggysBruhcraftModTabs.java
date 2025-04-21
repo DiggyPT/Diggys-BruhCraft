@@ -1,0 +1,130 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.diggysbruhcraft.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
+
+import net.mcreator.diggysbruhcraft.DiggysBruhcraftMod;
+
+public class DiggysBruhcraftModTabs {
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DiggysBruhcraftMod.MODID);
+	public static final RegistryObject<CreativeModeTab> DIGGYS_BRUH_CRAFT = REGISTRY.register("diggys_bruh_craft",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.diggys_bruhcraft.diggys_bruh_craft")).icon(() -> new ItemStack(DiggysBruhcraftModItems.TIN_INGOT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DiggysBruhcraftModItems.TIN_INGOT.get());
+				tabData.accept(DiggysBruhcraftModItems.PICARETA_DE_ENCANTO.get());
+				tabData.accept(DiggysBruhcraftModBlocks.TIN_ORE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.DEEPSLATE_TIN_ORE.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RAW_TIN.get());
+				tabData.accept(DiggysBruhcraftModItems.KEY.get());
+				tabData.accept(DiggysBruhcraftModBlocks.FUEL_GENERATOR.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BATTERY.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.DEATH_EEL_SPAWN_EGG.get());
+				tabData.accept(DiggysBruhcraftModBlocks.GOONITE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.GOONITE_BRICKS.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RIZZVILLE.get());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_TREE_LOG.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_PLANKS.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_LEAVES.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.SLATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.BACC_PACC.get());
+				tabData.accept(DiggysBruhcraftModBlocks.RIZZ_GRASS.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RIZZ_DIRT.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RIZZ_SAND.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_SAPLING.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.POU.get());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_SLAB.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_STAIRS.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.BORD_SPAWN_EGG.get());
+				tabData.accept(DiggysBruhcraftModItems.YEH.get());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_FENCE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.GRAIN_BALE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BRIX.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.COBBLED_SLATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.AQUAMARINE.get());
+				tabData.accept(DiggysBruhcraftModBlocks.AQUAMARINE_SHALE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BRIX_STAIRS.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BRIX_SLAB.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.LIGHTY.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BRIX_WALL.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.EEL_EGG.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.BRIX_GLASS.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.GOOFY_TRADER_SPAWN_EGG.get());
+				tabData.accept(DiggysBruhcraftModItems.HYPER_NEXUS_GUARDIAN_SPAWN_EGG.get());
+				tabData.accept(DiggysBruhcraftModItems.GOON_PEARL.get());
+				tabData.accept(DiggysBruhcraftModItems.GOON_TETHER.get());
+				tabData.accept(DiggysBruhcraftModItems.HBG_PROJECTILE_ITEM.get());
+				tabData.accept(DiggysBruhcraftModBlocks.GRACITE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.FOUR_WAY_CABLE.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.GRACITE_DUST.get());
+				tabData.accept(DiggysBruhcraftModBlocks.CRUSHER.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RIZZ_GRASSY.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.GRAIN.get());
+				tabData.accept(DiggysBruhcraftModItems.GUG_SPAWN_EGG.get());
+				tabData.accept(DiggysBruhcraftModItems.BRIX_BRICK.get());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_LOG.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_LEAVES.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_SAPLING.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RUBBER_PULP.get());
+				tabData.accept(DiggysBruhcraftModItems.RUBBER_BAR.get());
+				tabData.accept(DiggysBruhcraftModItems.RUBY.get());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBY_ORE.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RUBY_DUST.get());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_TRAPDOOR.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_DOOR.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_GATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.POLISHED_GRACITE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RIZZ_CLAY.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_LOG_EMPTY.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RESIN.get());
+				tabData.accept(DiggysBruhcraftModItems.TREETAPPER.get());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_PLANKS.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.RIZZ_CLAY_BALL.get());
+				tabData.accept(DiggysBruhcraftModBlocks.ELECTRIC_SMELTER.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.MCCAINITE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.EPIKROK.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.EPIK_BRIK.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.COKE_OVEN.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.COKE.get());
+				tabData.accept(DiggysBruhcraftModBlocks.ALLOY_SMELTER.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.STEEL_INGOT.get());
+				tabData.accept(DiggysBruhcraftModItems.CAST_IRON_INGOT.get());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_SLAB.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_STAIRS.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_FENCE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_BUTTON.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.NUTTE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_BUTTON.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_PRESSURE_PLATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_FENCE_GATE.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_TRAPDOOR.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.RUBBER_DOOR.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.TIN_PICKAXE.get());
+				tabData.accept(DiggysBruhcraftModItems.TIN_AXE.get());
+				tabData.accept(DiggysBruhcraftModItems.TIN_SHOVEL.get());
+				tabData.accept(DiggysBruhcraftModItems.TIN_SWORD.get());
+				tabData.accept(DiggysBruhcraftModItems.TIN_HOE.get());
+				tabData.accept(DiggysBruhcraftModItems.PEANUT_BUTTER.get());
+				tabData.accept(DiggysBruhcraftModItems.JELLY.get());
+				tabData.accept(DiggysBruhcraftModItems.HYPER_NEXUS.get());
+				tabData.accept(DiggysBruhcraftModItems.PBJ.get());
+				tabData.accept(DiggysBruhcraftModBlocks.HYPER_NEXUS_GUARDIAN_SPAWNER.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.HNG_SPAWNER_DOLLY.get());
+				tabData.accept(DiggysBruhcraftModItems.EEL_ELECTRODE.get());
+				tabData.accept(DiggysBruhcraftModBlocks.EPIK_BRIK_STAIRS.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.EPIK_BRIK_SLAB.get().asItem());
+				tabData.accept(DiggysBruhcraftModBlocks.EPIK_BRIK_WALL.get().asItem());
+				tabData.accept(DiggysBruhcraftModItems.BRUHCRAFT_RECIPE_BOOK.get());
+				tabData.accept(DiggysBruhcraftModItems.GRIMACE_SHAKE.get());
+				tabData.accept(DiggysBruhcraftModItems.GUG_HIDE.get());
+				tabData.accept(DiggysBruhcraftModItems.GOOFY_TRADER_SPAWNER_WAND.get());
+			}).withSearchBar().build());
+}
